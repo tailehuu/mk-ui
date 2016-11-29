@@ -2,15 +2,6 @@ module.exports = function (grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
 
-
-		sass: {
-			dist: {
-				files: {
-						'css/style.css': 'css/style.scss'
-				}
-      }
-		},
-
 		cssmin:{
 			my_target: {
 				files: [{
@@ -25,6 +16,4 @@ module.exports = function (grunt) {
 
 	});
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
-	grunt.loadNpmTasks('grunt-contrib-sass');
-
 };
