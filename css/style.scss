@@ -14,13 +14,13 @@
         color: white;
         min-width: 100px;
 
-        .medkumo-sdk-header-close-button {
+        .medkumo-sdk-close-button {
             position: absolute;
             right: 10px;
         }
 
-        .medkumo-sdk-header-maximize-button,
-        .medkumo-sdk-header-minimize-button {
+        .medkumo-sdk-maximize-button,
+        .medkumo-sdk-minimize-button {
             position: absolute;
             left: 10px;
         }
@@ -44,11 +44,11 @@
             padding: 0 10px;
             box-sizing: border-box;
 
-            .item{
+            .medkumo-sdk-item{
               float: left;
               margin: 5px;
 
-              .btn_Style {
+              .medkumo-sdk-book-an-appointment-button {
                   padding: 5px 15px;
                   webkit-box-shadow: none;
                   -moz-box-shadow: none;
@@ -96,16 +96,38 @@
                 /*margin: 0 183px 0;*/
             }
 
-            .medkumo-sdk-book-an-appointment-form-row{
+            .medkumo-sdk-form-row{
                 text-align: left;
                 margin-bottom: 20px;
 
-                #medkumo-sdk-book-an-appointment-form-row-btnBook {
+                .medkumo-sdk-form-row> label span {
+                    display: inline-block;
+                    box-sizing: border-box;
+                    color: #5F5F5F;
+                    width: 115px;
+                    text-align: right;
+                    vertical-align: top;
+                    padding: 12px 25px;
+                }
+
+                .medkumo-sdk-form-row-age-input{
+                    margin-left: 12px;
+                }
+
+                .medkumo-sdk-form-row-mobile-span{
+                    margin-left: -6px;
+                }
+
+                .medkumo-sdk-form-row-email-input{
+                    margin-left: 3px;
+                }
+
+                #medkumo-sdk-form-row-book-button {
                     margin-left: 183px;
                     margin-right: 25px;
                 }
 
-                #medkumo-sdk-book-an-appointment-form-row-btnBack {
+                #medkumo-sdk-form-row-back-button {
                     float: right;
                     margin-right: 153px;
                 }
@@ -117,15 +139,6 @@
             clear: both;
         }
 
-        .medkumo-sdk-book-an-appointment-form-row> label span {
-            display: inline-block;
-            box-sizing: border-box;
-            color: #5F5F5F;
-            width: 115px;
-            text-align: right;
-            vertical-align: top;
-            padding: 12px 25px;
-        }
     }
 }
 
@@ -138,18 +151,18 @@
         padding: 30px;
         max-width: 480px;
 
-        .medkumo-sdk-book-an-appointment-form-row {
+        .medkumo-sdk-form-row {
             max-width: 300px;
             margin: 25px auto;
             text-align: left;
 
-            #medkumo-sdk-book-an-appointment-form-row-btnBack {
+            #medkumo-sdk-form-row-back-button {
                 margin-left: 0;
                 float: right;
                 margin-right: 0;
             }
 
-            #medkumo-sdk-book-an-appointment-form-row-btnBook {
+            #medkumo-sdk-form-row-book-button {
                 margin-left: 0;
             }
 
@@ -157,7 +170,7 @@
                 margin: 0;
             }
 
-            .medkumo-sdk-book-an-appointment .form-row > label span {
+            .medkumo-sdk-form-row > label span {
                 display: block;
                 text-align: left;
                 padding: 0 0 15px;
@@ -178,12 +191,18 @@
             text-align: center;
         }
 
-        #medkumo-sdk-book-an-appointment-form-row-btnBack {
+        #medkumo-sdk-form-row-back-button {
           margin: 25px 67px;
         }
 
-        .medkumo-sdk-book-an-appointment input {
-            width: 190px;
+        #medkumo-sdk-form-row-book-button {
+          margin-left: 0;
+        }
+
+        .medkumo-sdk-book-an-appointment {
+          input {
+              width: 190px;
+          }
         }
 
         .medkumo-sdk-list-of-doctor {
