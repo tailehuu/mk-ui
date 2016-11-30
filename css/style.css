@@ -5,6 +5,7 @@
     bottom: 0;
     right: 0;
     border: 1px solid gray;
+    background-color: white;
 }
 
 #medkumo-sdk-container .medkumo-sdk-header {
@@ -184,7 +185,7 @@
         margin: 25px 67px;
     }
     #medkumo-sdk-container #medkumo-sdk-form-row-book-button {
-        margin-left: 0;
+        margin-left: 0px;
     }
     #medkumo-sdk-container .medkumo-sdk-book-an-appointment input {
         width: 190px;
