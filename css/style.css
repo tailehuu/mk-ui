@@ -1,160 +1,183 @@
 #medkumo-sdk-container-booking {
-  font-size: 12px;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  width: 70px;
-  text-align: center;
-  text-decoration: none; }
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+}
 
 #medkumo-sdk-container-booking .medkumo-sdk-book-an-appointment-button {
-  padding: 9px 5px;
-  webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  border-radius: 2px;
-  background-color: #6caee0;
-  background-image: -webkit-linear-gradient(top, #6caee0, #6caee0);
-  background-image: -moz-linear-gradient(top, #6caee0, #6caee0);
-  background-image: -ms-linear-gradient(top, #6caee0, #6caee0);
-  background-image: -o-linear-gradient(top, #6caee0, #6caee0);
-  background-image: linear-gradient(top, #6caee0, #6caee0);
-  border: 1px solid #6caee0;
-  color: #fff; }
+    padding: 9px 5px;
+    webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    border-radius: 2px;
+    background-color: #6caee0;
+    background-image: -webkit-linear-gradient(top, #6caee0, #6caee0);
+    background-image: -moz-linear-gradient(top, #6caee0, #6caee0);
+    background-image: -ms-linear-gradient(top, #6caee0, #6caee0);
+    background-image: -o-linear-gradient(top, #6caee0, #6caee0);
+    background-image: linear-gradient(top, #6caee0, #6caee0);
+    border: 1px solid #6caee0;
+    color: #fff;
+}
 
 #medkumo-sdk-container {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  border: 1px solid #6caee0;
-  background-color: #ffffff;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  font: 12px sans-serif; }
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #6caee0;
+    background-color: #ffffff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font: 12px sans-serif;
+}
 
 #medkumo-sdk-container .medkumo-sdk-header {
-  position: relative;
-  height: 30px;
-  line-height: 30px;
-  background: #6caee0;
-  color: white;
-  min-width: 100px; }
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    background: #6caee0;
+    color: white;
+    min-width: 100px;
+}
 
 #medkumo-sdk-container .medkumo-sdk-header .medkumo-sdk-close-button {
-  position: absolute;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
-  color: #ffffff;
-  cursor: pointer;
-  font-size: 1.5em;
-  right: 10px; }
+    position: absolute;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.5em;
+    right: 10px;
+}
 
 #medkumo-sdk-container .medkumo-sdk-body {
-  max-height: 410px;
-  width: 300px;
-  padding: 5px;
-  overflow-y: scroll; }
+    max-height: 410px;
+    width: 300px;
+    padding: 5px;
+    overflow-y: scroll;
+}
 
 #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-user-detail {
-  text-align: center;
-  padding-bottom: 5px; }
+    text-align: center;
+    padding-bottom: 5px;
+}
 
 #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-list-of-doctor {
-  float: left;
-  text-align: center;
-  box-sizing: border-box; }
-
-#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-list-of-doctor .medkumo-sdk-item {
-  float: left;
-  width: 46%;
-  margin: 5px; }
-
-#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-list-of-doctor .medkumo-sdk-item img {
-  width: 4em; }
-
-#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-list-of-doctor .medkumo-sdk-item .medkumo-sdk-book-an-appointment-button {
-  padding: 5px;
-  webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  background-color: #6caee0;
-  background-image: -webkit-linear-gradient(top, #00bfff);
-  background-image: -moz-linear-gradient(top, #00bfff);
-  background-image: -ms-linear-gradient(top, #00bfff);
-  background-image: -o-linear-gradient(top, #00bfff);
-  background-image: linear-gradient(top, #00bfff);
-  border: 1px solid #3079ed;
-  color: #fff;
-  font-size: 12px;
-  border-radius: 2px; }
-
-#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment {
-  margin: 0 auto;
-  padding-left: 55px;
-  box-sizing: border-box;
-  padding-left: 5px; }
-
-#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-item-center {
-  text-align: center; }
-
-#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment input {
-  color: #5f5f5f;
-  box-sizing: border-box;
-  width: 100%;
-  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
-  padding: 12px;
-  border: 1px solid #dbdbdb; }
-
-#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment button {
-  border-radius: 2px;
-  background-color: #6caee0;
-  color: #ffffff;
-  padding: 9px 22px;
-  border: 0; }
-
-#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-form-row {
-  margin-bottom: 10px; }
-
-#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-form-row .medkumo-sdk-form-row > label span {
-  display: inline-block;
-  box-sizing: border-box;
-  color: #5F5F5F;
-  width: 115px;
-  text-align: right;
-  vertical-align: top;
-  padding: 12px 18px; }
-
-#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-form-row img {
-  width: 4em; }
-
-#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-form-row #medkumo-sdk-form-row-book-button {
-  margin-right: 10px; }
-
-#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-clear {
-  clear: both; }
-
-/*	Making the form responsive. Remove this media query
-    if you don't need the form to work on mobile devices. */
-@media only screen and (max-width: 480px) {
-  #medkumo-sdk-container .medkumo-sdk-body {
-    width: 100%; }
-
-  #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-list-of-doctor {
     float: left;
     text-align: center;
+    box-sizing: border-box;
+}
+
+#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-list-of-doctor .medkumo-sdk-item {
+    float: left;
+    width: 46%;
+    margin: 5px;
+}
+
+#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-list-of-doctor .medkumo-sdk-item img {
+    width: 4em;
+}
+
+#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-list-of-doctor .medkumo-sdk-item .medkumo-sdk-book-an-appointment-button {
+    padding: 5px;
+    webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #6caee0;
+    background-image: -webkit-linear-gradient(top, #00bfff);
+    background-image: -moz-linear-gradient(top, #00bfff);
+    background-image: -ms-linear-gradient(top, #00bfff);
+    background-image: -o-linear-gradient(top, #00bfff);
+    background-image: linear-gradient(top, #00bfff);
+    border: 1px solid #3079ed;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 2px;
+}
+
+#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment {
+    margin: 0 auto;
+    padding-left: 55px;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-item-center {
+    text-align: center;
+}
+
+#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment input {
+    color: #5f5f5f;
+    box-sizing: border-box;
     width: 100%;
-    margin: 5px; }
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+}
 
-  #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-list-of-doctor .medkumo-sdk-item {
-    width: 60%; }
+#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment button {
+    border-radius: 2px;
+    background-color: #6caee0;
+    color: #ffffff;
+    padding: 9px 22px;
+    border: 0;
+}
 
-  #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-form-row #medkumo-sdk-form-row-book-button {
-    margin-left: 0; }
+#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-form-row {
+    margin-bottom: 10px;
+}
 
-  #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment input {
-    width: 350px; }
+#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-form-row .medkumo-sdk-form-row>label span {
+    display: inline-block;
+    box-sizing: border-box;
+    color: #5F5F5F;
+    width: 115px;
+    text-align: right;
+    vertical-align: top;
+    padding: 12px 18px;
+}
 
-  #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-user-detail {
-    float: none;
-    margin-top: 0; } }
+#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-form-row img {
+    width: 4em;
+}
+
+#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-form-row #medkumo-sdk-form-row-book-button {
+    margin-right: 10px;
+}
+
+#medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-clear {
+    clear: both;
+}
+
+@media all and (max-width: 480px) {
+    #medkumo-sdk-container {
+        width: 100%;
+    }
+    #medkumo-sdk-container .medkumo-sdk-body {
+        width: 98%;
+    }
+    #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-list-of-doctor {
+        width: 100%;
+        padding: 5px;
+    }
+    #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-list-of-doctor .medkumo-sdk-item {
+        width: 100%;
+    }
+    #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-list-of-doctor .medkumo-sdk-item img {
+        margin: 5px;
+    }
+    #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-form-row #medkumo-sdk-form-row-book-button {
+        margin-left: 0;
+    }
+    #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-user-detail {
+        float: none;
+        margin-top: 0;
+    }
+}
+
+
 /*# sourceMappingURL=style.css.map */
-/*# sourceMappingURL=style.css.map */
+
 
 /*# sourceMappingURL=style.css.map */
