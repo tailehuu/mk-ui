@@ -149,21 +149,22 @@
         }
     }
 }
-/*	Making the form responsive. Remove this media query
-    if you don't need the form to work on mobile devices. */
-@media only screen and (max-width: 480px) {
+
+@media all and (max-width: 480px) {
     #medkumo-sdk-container {
+        width: 100%;
         .medkumo-sdk-body {
-            width: 100%;
-
+            width: 98%;
             .medkumo-sdk-list-of-doctor {
-                float: left;
-                text-align: center;
                 width: 100%;
-                margin: 5px;
+                padding: 5px;
 
-                .medkumo-sdk-item {
-                    width: 60%;
+                .medkumo-sdk-item{
+                  width: 100%;
+
+                  img{
+                    margin: 5px;
+                  }
                 }
             }
 
@@ -172,10 +173,6 @@
                     #medkumo-sdk-form-row-book-button {
                         margin-left: 0;
                     }
-                }
-
-                input {
-                    width: 350px;
                 }
             }
 
