@@ -51,7 +51,7 @@
     }
 
     .medkumo-sdk-body {
-        max-height: 410px;
+        height: 410px;
         width: 300px;
         padding: 5px;
         overflow-y: scroll;
@@ -149,22 +149,72 @@
         }
     }
 }
-
-@media all and (max-width: 480px) {
+// size on destop
+@media (min-width: 1200px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #medkumo-sdk-container {
+        .medkumo-sdk-item {
+            width: 50%;
+        }
+    }
+}
+@media (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
     #medkumo-sdk-container {
         width: 100%;
+
+        .medkumo-sdk-body {
+            width: 99%;
+        }
+
+        .medkumo-sdk-item {
+            width: 46%;
+        }
+    }
+}
+@media (max-width: 767px) {
+    #medkumo-sdk-container {
+        width: 100%;
+
+        .medkumo-sdk-body {
+            width: 99%;
+        }
+
+        .medkumo-sdk-item {
+            width: 46%;
+        }
+    }
+}
+@media (max-width: 639px) {
+    #medkumo-sdk-container {
+        width: 100%;
+
+        .medkumo-sdk-body {
+            width: 99%;
+        }
+
+        .medkumo-sdk-item {
+            width: 46%;
+        }
+    }
+}
+@media (max-width: 480px) {
+    #medkumo-sdk-container {
+        width: 100%;
+
         .medkumo-sdk-body {
             width: 98%;
+
             .medkumo-sdk-list-of-doctor {
                 width: 100%;
                 padding: 5px;
 
-                .medkumo-sdk-item{
-                  width: 100%;
+                .medkumo-sdk-item {
+                    width: 100%;
 
-                  img{
-                    margin: 5px;
-                  }
+                    img {
+                        margin: 5px;
+                    }
                 }
             }
 
@@ -183,4 +233,5 @@
         }
     }
 }
+@media (max-width: 320px) {}
 /*# sourceMappingURL=style.css.map */
