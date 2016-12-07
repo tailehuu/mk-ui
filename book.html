@@ -9,9 +9,64 @@
 </head>
 
 <body style="background-color:black;">
-    <div id="medkumo-sdk-container-booking">
-        <button onclick="document.location.href='list_doctor.html'" class="medkumo-sdk-book-an-appointment-button">Booking</button>
+    <div id="medkumo-sdk-container">
+            <div class="popup">
+                <a class="close" href="#">&times;</a>
+                <div class="medkumo-sdk-body">
+                    <div class="medkumo-sdk-book-an-appointment">
+                        <div class="medkumo-sdk-form-row medkumo-sdk-item-center">
+                            <img src="user.png" />
+                            <h4 class="">Dr. One</h4>
+                        </div>
+
+                        <div class="medkumo-sdk-form-row">
+                            <label>
+                                <span>Name:</span>
+                                <input type="text" placeholder="Patient Name">
+                            </label>
+                        </div>
+
+                        <div class="medkumo-sdk-form-row">
+                            <label>
+                                <span>Age:</span>
+                                <input class="medkumo-sdk-form-row-age-input" type="text" placeholder="Patient Age">
+                            </label>
+                        </div>
+
+                        <div class="medkumo-sdk-form-row">
+                            <label>
+                                <span>Mobile:</span>
+                                <input type="text" placeholder="Mobile">
+                            </label>
+                        </div>
+
+                        <div class="medkumo-sdk-form-row">
+                            <label>
+                                <span>Email:</span>
+                                <input class="medkumo-sdk-form-row-email-input" type="email" placeholder="Email">
+                            </label>
+                        </div>
+
+                        <div class="medkumo-sdk-form-row">
+                            <label>
+                                <span>Appointment Date & Time:</span>
+                                <input type="text" placeholder="Datetime">
+                            </label>
+                        </div>
+
+                        <div class="medkumo-sdk-form-row footer-group-button">
+                          <label>
+                              <span>&nbsp;</span>
+                          </label>
+                          <button type="submit" id="medkumo-sdk-form-row-book-button">Book</button>
+                          <!-- <button type="submit" id="medkumo-sdk-form-row-back-button">Back</button> -->
+                        </div>
+
+                    </div>
+                </div>
+        </div>
     </div>
+
 
 </body>
 
