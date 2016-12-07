@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an appoinment form</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <!-- <div id="medkumo-sdk-container-booking">
+        <a class="medkumo-sdk-book-an-appointment-button" href="#medkumo-book-an-appoinment">Book An Appointment</a>
+    </div> -->
+    <button style="background-color:#6caee0;" class="medkumo-sdk-book-an-appointment-button" href="#medkumo-book-an-appoinment">Book An Appointment</button>
+    <div id="medkumo-sdk-container">
+        <div id="medkumo-book-an-appoinment">
+            <div class="medkumo-overlay"></div>
+            <div class="medkumo-popup">
+                <div class="medkumo-popup-header">
+                    <h3>Book An Appointment</h3>
+                </div>
+                <a class="medkumo-popup-close" href="#">&times;</a>
+                <div class="medkumo-sdk-body">
+                    <div class="medkumo-sdk-book-an-appointment">
+                        <div class="medkumo-sdk-form-row medkumo-sdk-item-center">
+                            <img src="user.png" />
+                            <h4 class="">Dr. One</h4>
+                        </div>
+
+                        <div class="medkumo-sdk-form-row">
+                            <label>
+                            <span>Name:</span>
+                            <input type="text" placeholder="Patient Name">
+                        </label>
+                        </div>
+
+                        <div class="medkumo-sdk-form-row">
+                            <label>
+                            <span>Age:</span>
+                            <input class="medkumo-sdk-form-row-age-input" type="text" placeholder="Patient Age">
+                        </label>
+                        </div>
+
+                        <div class="medkumo-sdk-form-row">
+                            <label>
+                            <span>Mobile:</span>
+                            <input type="text" placeholder="Mobile">
+                        </label>
+                        </div>
+
+                        <div class="medkumo-sdk-form-row">
+                            <label>
+                            <span>Email:</span>
+                            <input class="medkumo-sdk-form-row-email-input" type="email" placeholder="Email">
+                        </label>
+                        </div>
+
+                        <div class="medkumo-sdk-form-row">
+                            <label>
+                            <span>Appointment Date & Time:</span>
+                            <input type="text" placeholder="Datetime">
+                        </label>
+                        </div>
+
+                        <div class="medkumo-sdk-form-row footer-group-button">
+                            <label>
+                          <span>&nbsp;</span>
+                      </label>
+                            <button onclick="document.getElementById('medkumo-success').style.display='block !important'">Book</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="medkumo-success" class="medkumo-modal">
+        <div class="medkumo-modal-content">
+            <div class="medkumo-modal-header">
+                <span class="medkumo-close-span">&times;</span>
+                <h3>Book An Appointment</h3>
+            </div>
+            <div class="medkumo-modal-body">
+                <p style="text-align:center;">Book success!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
