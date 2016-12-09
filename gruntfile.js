@@ -1,19 +1,51 @@
-module.exports = function (grunt) {
-	grunt.initConfig({
-		pkg: grunt.file.readJSON('package.json'),
+module.exports = function(grunt) {
+    grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
 
-		cssmin:{
-			my_target: {
-				files: [{
-					expand: true,
-					cwd: 'css/',
-					src: ['*.css', '!*.min.css'],
-					dest: 'css/',
-					ext: '.min.css'
-				}]
-			}
-		}
+        compress: {
+            main: {
+                options: {
+                    archive: 'dist/medkumo_sdk.zip',
+                    dot: true
+                },
+                expand: true,
+                cwd: 'dist/',
+                src: ['**', '.*'],
+                dest: 'medkumo_sdk/'
+            }
+        },
 
-	});
-	grunt.loadNpmTasks('grunt-contrib-cssmin');
+        copy: {
+            main: {
+                files: [
+								// {
+                //     expand: true,
+                //     src: ['css/*'],
+                //     dest: 'dist/'
+                // },
+								// {
+                //     expand: true,
+                //     src: ['js/*'],
+                //     dest: 'dist/'
+                // },
+								{
+                    expand: true,
+										src: [
+                            '*.html',
+                            '*.js',
+                            '*.css'
+                    ],
+                    dest: 'dist/'
+                },
+								{
+										 expand: true,
+										 src: ['lib/*'],
+										 dest: 'dist/'
+							 	 }
+							],
+            },
+        }
+    });
+    grunt.loadNpmTasks('grunt-contrib-compress');
+    grunt.loadNpmTasks('grunt-contrib-copy');
 };
