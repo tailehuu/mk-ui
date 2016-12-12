@@ -44,7 +44,7 @@
     right: 12px;
     position: absolute;
     text-decoration: none;
-    top: 0px;
+    top: 6px;
     transition: all 200ms;
     font-size: 30px; }
   .medkumo-popup .medkumo-popup-close:hover {
@@ -88,7 +88,8 @@
         border-radius: 2px;
         border: 0;
         color: #ffffff;
-        padding: 9px 22px; }
+        padding: 9px 22px;
+        cursor: pointer; }
       #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-form-row {
         margin: 10px 0; }
         #medkumo-sdk-container .medkumo-sdk-body .medkumo-sdk-book-an-appointment .medkumo-sdk-form-row label {
@@ -107,7 +108,7 @@
 @media (min-width: 1200px) {
   .medkumo-popup {
     width: 500px;
-    margin: 100px auto; } }
+    margin: 50px auto; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .medkumo-popup {
     width: 500px; } }
