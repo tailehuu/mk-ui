@@ -18,6 +18,19 @@ module.exports = function(grunt) {
         copy: {
             main: {
                 files: [
+								{
+                    expand: true,
+                    src: ['css/*'],
+                    dest: 'dist/'
+                },
+								{
+                    expand: true,
+                    src: ['images/*'],
+                    dest: 'dist/'
+                },
+								{
+                    expand: true,
+										src: ['medkumo.js'],
 								// {
                 //     expand: true,
                 //     src: ['css/*'],
@@ -41,6 +54,12 @@ module.exports = function(grunt) {
 										 expand: true,
 										 src: ['lib/*'],
 										 dest: 'dist/'
+							 	},
+                {
+                    expand: true,
+                    src: ['*.html'],
+                    dest: 'dist/'
+                }
 							 	 }
 							],
             },
