@@ -31,23 +31,6 @@ module.exports = function(grunt) {
 								{
                     expand: true,
 										src: ['medkumo.js'],
-								// {
-                //     expand: true,
-                //     src: ['css/*'],
-                //     dest: 'dist/'
-                // },
-								// {
-                //     expand: true,
-                //     src: ['js/*'],
-                //     dest: 'dist/'
-                // },
-								{
-                    expand: true,
-										src: [
-                            '*.html',
-                            '*.js',
-                            '*.css'
-                    ],
                     dest: 'dist/'
                 },
 								{
@@ -60,7 +43,6 @@ module.exports = function(grunt) {
                     src: ['*.html'],
                     dest: 'dist/'
                 }
-							 	 }
 							],
             },
         }
